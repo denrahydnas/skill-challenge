@@ -1,3 +1,12 @@
 .banner-block {
     background-color: $background-contrast;
+    background-image: linear-gradient(to right, rgba(41, 27, 11, 0.593), rgba(41, 27, 11, 0.233)), url('../../../public/images/mountain-on-horizon.jpg');
+    background-size: cover;
+    background-position-y:center;
+    height: 300px;
+    @media (max-width:575px){
+        background-size:auto;
+        background-position-x: center;
+    }
 }
+

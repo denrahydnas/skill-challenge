@@ -1,16 +1,36 @@
 @import url(https://fonts.googleapis.com/css2?family=Lato&family=Roboto:wght@700);
-h1, h2, h3, h4, h5, h6 {
+.banner {
   font-family: "Roboto", sans-serif;
-  color: #0c023f;
+  color: #f1ba00;
+  text-transform: uppercase;
+  padding-left: 8%;
+}
+@media (max-width: 575px) {
+  .banner {
+    padding-left: 0;
+    text-align: center;
+  }
+}
+
+h1 {
+  font-size: 5em;
+  line-height: 0.7em;
 }
 
 h2 {
+  font-size: 3em;
+  padding-top: 50px;
+}
+
+h3 {
+  font-family: "Roboto", sans-serif;
+  color: #0c023f;
   font-size: 2.3em;
   text-transform: uppercase;
   line-height: 0.5em;
 }
 @media (max-width: 575px) {
-  h2 {
+  h3 {
     font-size: 2em;
     line-height: 1em;
   }
@@ -38,7 +58,7 @@ hr {
 
 .block {
   width: 100%;
-  padding: 2rem 0;
+  padding: 2.5rem 0;
 }
 
 nav {
@@ -47,6 +67,16 @@ nav {
 
 .banner-block {
   background-color: lightgrey;
+  background-image: linear-gradient(to right, rgba(41, 27, 11, 0.593), rgba(41, 27, 11, 0.233)), url(/images/mountain-on-horizon.jpg?54abbd39d1593c286aeba92fc78cb567);
+  background-size: cover;
+  background-position-y: center;
+  height: 300px;
+}
+@media (max-width: 575px) {
+  .banner-block {
+    background-size: auto;
+    background-position-x: center;
+  }
 }
 
 .one-column-block {

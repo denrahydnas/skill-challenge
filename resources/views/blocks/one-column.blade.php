@@ -1,5 +1,5 @@
 <div class="block one-column-block content">
-    <h2 class="text-center">This is a headline</h2>
+    <h3 class="text-center">This is a headline</h3>
     <hr style="border: none;">
     <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
         Purus semper eget duis at tellus at urna condimentum. Egestas maecenas pharetra convallis posuere morbi leo. 
