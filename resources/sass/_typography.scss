@@ -1,5 +1,5 @@
-
-.banner {
+// banner text
+.ban-text {
     font-family: $font-stack-primary;
     color: $color-secondary;
     text-transform:uppercase;
@@ -10,14 +10,16 @@
     }
 }
 h1 {
+    @extend .ban-text;
     font-size: 5em;
     line-height: 0.7em;
 }
+
 h2 {
+    @extend .ban-text;
     font-size: 3em;
     padding-top: 50px;
 }
-
 
 // Content Sections
 
