@@ -122,6 +122,23 @@ nav {
   width: 30px;
 }
 
+.img1 {
+  background-image: url(/images/boys-on-hill.jpg?887170cc56614b925c885637390ce19f);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  height: 250px;
+}
+
+.img2 {
+  background-image: url(/images/icon_lockup.png?78dac002db73c7d268fbb61963211fc7);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  height: 100px;
+  margin-bottom: 5%;
+}
+
 .two-column-block {
   background-color: white;
 }
