@@ -7,3 +7,26 @@
     padding: 2.5rem 0;
 }
 
+.text-block {
+    padding-left: 15%;
+    padding-right: 15%;  
+    @media (max-width: 575px) {
+        padding-left: 10%;
+        padding-right: 10%;
+    }   
+}
+
+.card {
+    border: none;
+}
+
+.card-left {
+    @media (min-width: 575px) {
+    margin-right: 15px;
+    }
+}
+.card-right {
+    @media (min-width: 575px) {
+    margin-left: 15px;
+    }
+}

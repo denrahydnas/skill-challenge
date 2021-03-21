@@ -61,6 +61,33 @@ hr {
   padding: 2.5rem 0;
 }
 
+.text-block {
+  padding-left: 15%;
+  padding-right: 15%;
+}
+@media (max-width: 575px) {
+  .text-block {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+}
+
+.card {
+  border: none;
+}
+
+@media (min-width: 575px) {
+  .card-left {
+    margin-right: 15px;
+  }
+}
+
+@media (min-width: 575px) {
+  .card-right {
+    margin-left: 15px;
+  }
+}
+
 nav {
   background-color: #0c023f;
 }
@@ -81,14 +108,6 @@ nav {
 
 .one-column-block {
   background-color: white;
-  padding-left: 15%;
-  padding-right: 15%;
-}
-@media (max-width: 575px) {
-  .one-column-block {
-    padding-left: 10%;
-    padding-right: 10%;
-  }
 }
 
 .two-column-icon-block {
@@ -97,4 +116,20 @@ nav {
 
 .two-column-block {
   background-color: white;
+}
+
+.card {
+  border: none;
+}
+
+@media (min-width: 575px) {
+  .card-left {
+    margin-right: 15px;
+  }
+}
+
+@media (min-width: 575px) {
+  .card-right {
+    margin-left: 15px;
+  }
 }

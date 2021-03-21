@@ -1,3 +1,18 @@
 .two-column-block {
     background-color:$background;
 }
+
+.card {
+    border: none;
+}
+
+.card-left {
+    @media (min-width: 575px) {
+    margin-right: 15px;
+    }
+}
+.card-right {
+    @media (min-width: 575px) {
+    margin-left: 15px;
+    }
+}

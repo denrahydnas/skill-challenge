@@ -1,7 +1,7 @@
-<div class="block one-column-block content">
+<div class="block one-column-block">
     <h3 class="text-center">This is a headline</h3>
     <hr style="border: none;">
-    <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+    <p class="mb-0 text-block">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
         Purus semper eget duis at tellus at urna condimentum. Egestas maecenas pharetra convallis posuere morbi leo. 
         Mi quis hendrerit dolor magna eget. Nisi est sit amet facilisis magna etiam. Donec et odio pellentesque diam volutpat. 
         Non consectetur a erat nam. Diam donec adipiscing tristique risus nec feugiat. Eget gravida cum sociis natoque penatibus et magnis. 
