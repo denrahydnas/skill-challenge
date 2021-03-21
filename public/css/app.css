@@ -118,18 +118,10 @@ nav {
   background-color: white;
 }
 
-.card {
-  border: none;
-}
-
-@media (min-width: 575px) {
-  .card-left {
-    margin-right: 15px;
-  }
-}
-
-@media (min-width: 575px) {
-  .card-right {
-    margin-left: 15px;
-  }
+.img3 {
+  background-image: url(/images/girl-in-kayak-in-mountain-lake.jpg?28aef65233684be05ce5bb7c4f4ca411);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  height: 250px;
 }
