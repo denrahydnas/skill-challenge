@@ -7,14 +7,8 @@
         </div>
         <div class="col-12 col-md-6">
             <div class="row card-right mt-3">
-                <div class="col-4 justify-content-center">
-                    <img class="icon" src="../../../public/images/globe.png" alt="globe">"
-                </div>
-                <div class="col-4 justify-content-center">
-                    <img class="icon" src="../../../public/images/train.png" alt="train">"
-                </div>
-                <div class="col-4 justify-content-center">
-                    <img class="icon" src="../../../public/images/plane.png" alt="plane">"
+                <div class="col-12 justify-content-center">
+                    <span class="img2">
                 </div>
                 <div class="col-12">            
                     <p class="card-text mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
