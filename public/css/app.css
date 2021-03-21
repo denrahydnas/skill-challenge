@@ -125,19 +125,3 @@ nav {
 .two-column-block {
   background-color: white;
 }
-
-.card {
-  border: none;
-}
-
-@media (min-width: 575px) {
-  .card-left {
-    margin-right: 15px;
-  }
-}
-
-@media (min-width: 575px) {
-  .card-right {
-    margin-left: 15px;
-  }
-}
