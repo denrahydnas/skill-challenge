@@ -3,7 +3,7 @@
     <hr style="border: none;">
     <div class="row text-block">
         <div class="col-12 col-md-6">
-            <img class="card-left mt-3" src="../../../public/images/girl-in-kayak-in-mountain-lake.jpg" alt="girl in kayak">
+            <img class="card-left mt-3" src="../../../public/images/boys-on-hill.jpg" alt="girl in kayak">
         </div>
         <div class="col-12 col-md-6">
             <div class="row card-right mt-3">
