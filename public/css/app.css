@@ -77,13 +77,13 @@ hr {
 }
 
 @media (min-width: 575px) {
-  .card-left {
+  .col-left {
     margin-right: 15px;
   }
 }
 
 @media (min-width: 575px) {
-  .card-right {
+  .col-right {
     margin-left: 15px;
   }
 }

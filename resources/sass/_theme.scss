@@ -20,12 +20,12 @@
     border: none;
 }
 
-.card-left {
+.col-left {
     @media (min-width: 575px) {
     margin-right: 15px;
     }
 }
-.card-right {
+.col-right {
     @media (min-width: 575px) {
     margin-left: 15px;
     }
