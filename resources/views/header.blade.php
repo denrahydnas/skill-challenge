@@ -1,23 +1,15 @@
-<nav class="navbar navbar-expand-xl navbar-dark">
-  <div class="container">
+<nav class="navbar navbar-expand-sm navbar-dark">
     <a class="navbar-brand" href="#">
       <h5>This is a</h5>
       <h4>Logo</h4>
     </a>
 
-    <!--
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#lua-navbar-content" aria-controls="lua-navbar-content" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    -->
-
     <input type="checkbox" id="new-navbar-toggler" class="d-none" />
-
-    <label for="new-navbar-toggler" class="navbar-toggler" data-toggle="collapse" data-target="#new-navbar-content" aria-controls="lua-navbar-content" aria-expanded="false" aria-label="Toggle navigation">
+    <label for="new-navbar-toggler" class="navbar-toggler ml-auto custom-toggler" data-toggle="collapse" data-target="#new-navbar-content" aria-controls="lua-navbar-content" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </label> 
-
-    <div class="collapse navbar-collapse" id="lua-navbar-content">
+        
+    <div class="collapse navbar-collapse" id="navbar-content">
       <ul class="navbar-nav ml-auto">
       <li class="nav-item">
             <a class="nav-link" href="#">
@@ -37,7 +29,6 @@
             </a>
         </li>
       </ul>
-    </div>
-  </div>
+    </div>  
 </nav>   
 

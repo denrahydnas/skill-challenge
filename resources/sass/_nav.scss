@@ -4,24 +4,27 @@ nav {
 
 .navbar {
      padding: 1rem 0 0 0;
- }
+}
 
 #new-navbar-toggler:checked ~ .collapse {
     display:block;
     background-color:$color-secondary;
+    margin:0;
     h6 {
         color: $color-primary;
+        text-align: right;
+        font-size: 1em;
     }
 }
 
 .navbar-dark .navbar-toggler {
     color: $color-secondary;
     border: none;
+    padding-right:3rem;
 }
-.navbar-dark .navbar-toggler-icon {
-     color: $color-secondary;
- }
 
- .nav-link:hover {
-    border-bottom: 3px solid $color-secondary
+@media(min-width:575px) {
+    .nav-link:hover {
+        border-bottom: 3px solid $color-secondary;
+    }
 }

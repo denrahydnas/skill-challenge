@@ -1,12 +1,13 @@
 @import url(https://fonts.googleapis.com/css2?family=Lato&family=Roboto:wght@700);
-.gold-text, h6, h5, h4, h2, h1 {
+.gold-text, h6, h5, h4, .headline, h2, h1 {
   font-family: "Roboto", sans-serif;
   color: #f1ba00;
   text-transform: uppercase;
-  padding-left: 8%;
+  padding-left: 4rem;
 }
+
 @media (max-width: 575px) {
-  .gold-text, h6, h5, h4, h2, h1 {
+  .headline, h2, h1 {
     padding-left: 0;
     text-align: center;
   }
@@ -49,7 +50,7 @@ h5 {
 h6 {
   font-size: 0.8em;
   text-align: center;
-  padding: 0 1rem;
+  padding: 0 2rem;
 }
 
 p {
@@ -116,24 +117,25 @@ nav {
 #new-navbar-toggler:checked ~ .collapse {
   display: block;
   background-color: #f1ba00;
+  margin: 0;
 }
 #new-navbar-toggler:checked ~ .collapse h6 {
   color: #0c023f;
+  text-align: right;
+  font-size: 1em;
 }
 
 .navbar-dark .navbar-toggler {
   color: #f1ba00;
   border: none;
+  padding-right: 3rem;
 }
 
-.navbar-dark .navbar-toggler-icon {
-  color: #f1ba00;
+@media (min-width: 575px) {
+  .nav-link:hover {
+    border-bottom: 3px solid #f1ba00;
+  }
 }
-
-.nav-link:hover {
-  border-bottom: 3px solid #f1ba00;
-}
-
 .banner-block {
   background-color: lightgrey;
   background-image: linear-gradient(to right, rgba(41, 27, 11, 0.593), rgba(41, 27, 11, 0.233)), url(/images/mountain-on-horizon.jpg?54abbd39d1593c286aeba92fc78cb567);

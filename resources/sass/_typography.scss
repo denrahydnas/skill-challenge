@@ -3,20 +3,25 @@
     font-family: $font-stack-primary;
     color: $color-secondary;
     text-transform:uppercase;
-    padding-left: 8%;
+    padding-left: 4rem;
+}
+
+ .headline {
+    @extend .gold-text;
     @media(max-width:575px) {
         padding-left:0;
         text-align: center;
     }
-}
+ }
+
 h1 {
-    @extend .gold-text;
+    @extend .headline;
     font-size: 5em;
     line-height: 0.7em;
 }
 
 h2 {
-    @extend .gold-text;
+    @extend .headline;
     font-size: 3em;
     padding-top: 50px;
 }
@@ -49,7 +54,7 @@ h6 {
     @extend .gold-text;
     font-size: 0.8em;
     text-align: center;
-    padding: 0 1rem;
+    padding: 0 2rem;
 }
 
 p {
