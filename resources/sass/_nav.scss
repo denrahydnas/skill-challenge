@@ -2,50 +2,33 @@ nav {
     background-color: $color-primary;
 }
 
-.navbar {
-     padding: 1rem 0 0 0;
-}
-
-#new-navbar-toggler:checked ~ .collapse {
-    display:block;
-    background-color:$color-secondary;
-    margin:0;
-    h6 {
-        color: $color-primary;
-        text-align: right;
-        font-size: 1em;
-    }
+.navbar-brand {
+    padding-top: 1rem;
 }
 
 .navbar-dark .navbar-toggler {
     color: $color-secondary;
     border: none;
-    padding-right:3rem;
 }
+
+/*.navbar-toggle-icon {
+    data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.5%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e
+}*/
 
 @media(min-width:575px) {
     .nav-link:hover {
         border-bottom: 3px solid $color-secondary;
     }
 }
-
-
-.icon {
-    background-image: url("/public/images/hamburger_icon.png");
-    background-position: center;
-    background-size: contain;
-}   
-
     
 .pane {
     position:fixed;
-    top: 80px;
+    top: 90px;
     right: -100%;
     padding: 1rem 2rem;
-    height: 20vh;
+    height: 9rem;
     width: 100%;
     background: #f1ba00;
-    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);
     transition: 0.5s all ease;
     @media(max-width:575px) {
     &.open {
