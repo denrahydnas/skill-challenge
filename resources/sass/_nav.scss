@@ -1,3 +1,27 @@
 nav {
     background-color: $color-primary;
 }
+
+.navbar {
+     padding: 1rem 0 0 0;
+ }
+
+#new-navbar-toggler:checked ~ .collapse {
+    display:block;
+    background-color:$color-secondary;
+    h6 {
+        color: $color-primary;
+    }
+}
+
+.navbar-dark .navbar-toggler {
+    color: $color-secondary;
+    border: none;
+}
+.navbar-dark .navbar-toggler-icon {
+     color: $color-secondary;
+ }
+
+ .nav-link:hover {
+    border-bottom: 3px solid $color-secondary
+}

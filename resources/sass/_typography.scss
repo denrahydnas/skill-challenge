@@ -1,5 +1,5 @@
-// banner text
-.ban-text {
+
+.gold-text {
     font-family: $font-stack-primary;
     color: $color-secondary;
     text-transform:uppercase;
@@ -10,18 +10,16 @@
     }
 }
 h1 {
-    @extend .ban-text;
+    @extend .gold-text;
     font-size: 5em;
     line-height: 0.7em;
 }
 
 h2 {
-    @extend .ban-text;
+    @extend .gold-text;
     font-size: 3em;
     padding-top: 50px;
 }
-
-// Content Sections
 
 h3 {
     font-family: $font-stack-primary;
@@ -33,7 +31,26 @@ h3 {
         font-size: 2em;
         line-height: 1em;
     }
- }
+}
+
+h4 {
+    @extend .gold-text;
+    font-size: 2em;
+    line-height: 0.7em;
+}
+
+h5 {
+    @extend .gold-text;
+    font-size: 1.1em;
+    line-height: 0.5em;
+}
+
+h6 {
+    @extend .gold-text;
+    font-size: 0.8em;
+    text-align: center;
+    padding: 0 1rem;
+}
 
 p {
     font-family: $font-stack-secondary;

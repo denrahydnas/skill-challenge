@@ -1,12 +1,12 @@
 @import url(https://fonts.googleapis.com/css2?family=Lato&family=Roboto:wght@700);
-.ban-text, h2, h1 {
+.gold-text, h6, h5, h4, h2, h1 {
   font-family: "Roboto", sans-serif;
   color: #f1ba00;
   text-transform: uppercase;
   padding-left: 8%;
 }
 @media (max-width: 575px) {
-  .ban-text, h2, h1 {
+  .gold-text, h6, h5, h4, h2, h1 {
     padding-left: 0;
     text-align: center;
   }
@@ -34,6 +34,22 @@ h3 {
     font-size: 2em;
     line-height: 1em;
   }
+}
+
+h4 {
+  font-size: 2em;
+  line-height: 0.7em;
+}
+
+h5 {
+  font-size: 1.1em;
+  line-height: 0.5em;
+}
+
+h6 {
+  font-size: 0.8em;
+  text-align: center;
+  padding: 0 1rem;
 }
 
 p {
@@ -91,6 +107,31 @@ hr {
 
 nav {
   background-color: #0c023f;
+}
+
+.navbar {
+  padding: 1rem 0 0 0;
+}
+
+#new-navbar-toggler:checked ~ .collapse {
+  display: block;
+  background-color: #f1ba00;
+}
+#new-navbar-toggler:checked ~ .collapse h6 {
+  color: #0c023f;
+}
+
+.navbar-dark .navbar-toggler {
+  color: #f1ba00;
+  border: none;
+}
+
+.navbar-dark .navbar-toggler-icon {
+  color: #f1ba00;
+}
+
+.nav-link:hover {
+  border-bottom: 3px solid #f1ba00;
 }
 
 .banner-block {
