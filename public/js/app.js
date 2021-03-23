@@ -1883,7 +1883,8 @@ window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
   \********************************/
 /***/ (() => {
 
-console.log('Welcome to the Skill Challenge');
+console.log('Welcome to the Skill Challenge'); // SLIDING PANE/TOGGLER
+
 var button = document.querySelector('.toggle');
 var pane = document.querySelector('.pane');
 button.addEventListener('click', function () {

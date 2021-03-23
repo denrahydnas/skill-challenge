@@ -14,7 +14,6 @@
         </div>
         <div class="card">
             <span class= "img3 col-right mt-3"> </span>
-<!--            <img class="card-img-top card-right mt-3" src="../../../public/images/girl-in-kayak-in-mountain-lake.jpg" alt="girl in kayak"> -->
         </div>
     </div>
 </div>

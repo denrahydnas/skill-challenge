@@ -6,24 +6,32 @@ nav {
     padding-top: 1rem;
 }
 
-.navbar-dark .navbar-toggler {
-    color: $color-secondary;
-    border: none;
+.navbar-nav{
+    padding-right:3rem;
 }
 
-.custom-toggler .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28241, 186, 0, 0.8%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e")
+.nav-link:hover {
+    @media(min-width:575px) {
+        border-bottom: 4px solid $color-secondary;
+        padding-bottom: 28px;
+        margin-bottom:-28px;
+    }
 }
+
+// SLIDING PANE/TOGGLER
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28241, 186, 0, 0.8%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
 .custom-toggler .navbar-toggler {
     border-color: rgb(241,186,0);
 }
 
-@media(min-width:575px) {
-    .nav-link:hover {
-        border-bottom: 3px solid $color-secondary;
-    }
+.navbar-dark .navbar-toggler{
+    border:none;
+    font-size: 2.5rem;
 }
-    
+
 .pane {
     position:fixed;
     top: 90px;
@@ -33,7 +41,7 @@ nav {
     width: 100%;
     background: #f1ba00;
     transition: 0.5s all ease;
-    @media(max-width:575px) {
+    @media(max-width:768px) {
     &.open {
         right: 0%;
     }
