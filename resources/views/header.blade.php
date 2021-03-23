@@ -1,5 +1,45 @@
-<nav class="text-center py-3">
-    <h2>This is the Nav</h2>
-    <p class="mb-0">File Located:  /resources/views/header.blade.php</p>
-    <p class="text-center">Sass Located: /resources/_nav.scss</p>
+<nav class="navbar navbar-expand-sm navbar-dark">
+    <a class="navbar-brand" href="#">
+      <h5>This is a</h5>
+      <h4>Logo</h4>
+    </a>
+    <div class="collapse navbar-collapse" id="navbar-content">
+      <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+            <a class="nav-link" href="#">
+            <h6>Locations</h6>
+            </a>
+        </li>
+
+        <li class="nav-item">
+            <a class="nav-link" href="#">
+            <h6>Travel</h6>
+            </a>
+        </li>
+
+        <li class="nav-item">
+            <a class="nav-link" href="#">
+              <h6>Booking</h6>
+            </a>
+        </li>
+      </ul>
+    </div> 
+    <button class=" custom-toggler navbar-toggler toggle" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
 </nav>
+
+  <div class="pane ml-auto">
+    <a class="hidden-link" href="#">
+      <h6>Locations</h6>
+    </a>
+    <a class="hidden-link" href="#">
+      <h6>Travel</h6>
+    </a>
+    <a class="hidden-link" href="#">
+      <h6>Booking</h6>
+    </a>
+  </div>
+
+
+

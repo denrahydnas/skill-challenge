@@ -1,12 +1,18 @@
 @import url(https://fonts.googleapis.com/css2?family=Lato&family=Roboto:wght@700);
-.ban-text, h2, h1 {
+.gold-text, h6, h5, h4, .headline, h2, h1 {
   font-family: "Roboto", sans-serif;
   color: #f1ba00;
   text-transform: uppercase;
-  padding-left: 8%;
+  padding-left: 4rem;
 }
 @media (max-width: 575px) {
-  .ban-text, h2, h1 {
+  .gold-text, h6, h5, h4, .headline, h2, h1 {
+    padding-left: 1rem;
+  }
+}
+
+@media (max-width: 575px) {
+  .headline, h2, h1 {
     padding-left: 0;
     text-align: center;
   }
@@ -36,6 +42,29 @@ h3 {
   }
 }
 
+h4 {
+  font-size: 2em;
+  line-height: 0.7em;
+}
+
+h5 {
+  font-size: 1.1em;
+  line-height: 0.5em;
+}
+
+h6 {
+  font-size: 0.8em;
+  text-align: center;
+  padding: 0 2rem;
+}
+
+.hidden-link h6 {
+  color: #0c023f;
+  text-align: right;
+  font-size: 1.3em;
+  line-height: 1.6em;
+}
+
 p {
   font-family: "Lato", sans-serif;
   color: black;
@@ -45,11 +74,16 @@ p {
 }
 
 hr {
-  width: 30%;
+  width: 12rem;
   height: 4px;
   margin-right: auto;
   margin-left: auto;
   background-color: #0c023f;
+}
+
+a:hover {
+  -webkit-text-decoration-color: #0c023f;
+          text-decoration-color: #0c023f;
 }
 
 #app {
@@ -91,6 +125,44 @@ hr {
 
 nav {
   background-color: #0c023f;
+}
+
+.navbar-brand {
+  padding-top: 1rem;
+}
+
+.navbar-dark .navbar-toggler {
+  color: #f1ba00;
+  border: none;
+}
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28241, 186, 0, 0.8%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.custom-toggler .navbar-toggler {
+  border-color: #f1ba00;
+}
+
+@media (min-width: 575px) {
+  .nav-link:hover {
+    border-bottom: 3px solid #f1ba00;
+  }
+}
+.pane {
+  position: fixed;
+  top: 90px;
+  right: -100%;
+  padding: 1rem 2rem;
+  height: 9rem;
+  width: 100%;
+  background: #f1ba00;
+  transition: 0.5s all ease;
+}
+@media (max-width: 575px) {
+  .pane.open {
+    right: 0%;
+  }
 }
 
 .banner-block {

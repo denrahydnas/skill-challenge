@@ -1,27 +1,33 @@
-// banner text
-.ban-text {
+
+.gold-text {
     font-family: $font-stack-primary;
     color: $color-secondary;
     text-transform:uppercase;
-    padding-left: 8%;
+    padding-left: 4rem;
+    @media(max-width:575px) {
+        padding-left:1rem;
+    }
+}
+
+ .headline {
+    @extend .gold-text;
     @media(max-width:575px) {
         padding-left:0;
         text-align: center;
     }
-}
+ }
+
 h1 {
-    @extend .ban-text;
+    @extend .headline;
     font-size: 5em;
     line-height: 0.7em;
 }
 
 h2 {
-    @extend .ban-text;
+    @extend .headline;
     font-size: 3em;
     padding-top: 50px;
 }
-
-// Content Sections
 
 h3 {
     font-family: $font-stack-primary;
@@ -33,7 +39,33 @@ h3 {
         font-size: 2em;
         line-height: 1em;
     }
- }
+}
+
+h4 {
+    @extend .gold-text;
+    font-size: 2em;
+    line-height: 0.7em;
+}
+
+h5 {
+    @extend .gold-text;
+    font-size: 1.1em;
+    line-height: 0.5em;
+}
+
+h6 {
+    @extend .gold-text;
+    font-size: 0.8em;
+    text-align: center;
+    padding: 0 2rem;
+}
+
+.hidden-link h6{
+    color: $color-primary;
+    text-align: right;
+    font-size: 1.3em;
+    line-height: 1.6em;
+}
 
 p {
     font-family: $font-stack-secondary;
@@ -44,9 +76,13 @@ p {
 }
 
 hr {
-    width: 30%;
+    width: 12rem;
     height: 4px;
     margin-right: auto;
     margin-left: auto;
     background-color:$color-primary;  
+}
+
+a:hover {
+    text-decoration-color:$color-primary;
 }
