@@ -1,3 +1,26 @@
 .two-column-icon-block {
     background-color: $background-contrast;
 }
+
+.icon {
+    background-color:$color-primary;
+    border-radius: 50%;
+    height:50px;
+    width:30px;
+}
+.img1{
+    background-image: url('../../../public/images/boys-on-hill.jpg');
+    background-size: contain;
+    background-repeat:no-repeat;
+    background-position-x:center;
+    height: 250px;
+}
+
+.img2{
+    background-image: url('../../../public/images/icon_lockup.png');
+    background-size: contain;
+    background-repeat:no-repeat;
+    background-position-x:center;
+    height: 100px;
+    margin-bottom: 5%;
+}

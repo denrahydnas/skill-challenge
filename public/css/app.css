@@ -29,7 +29,7 @@ h3 {
   text-transform: uppercase;
   line-height: 0.5em;
 }
-@media (max-width: 575px) {
+@media (max-width: 675px) {
   h3 {
     font-size: 2em;
     line-height: 1em;
@@ -58,7 +58,7 @@ hr {
 
 .block {
   width: 100%;
-  padding: 2.5rem 0;
+  padding: 3rem 0;
 }
 
 .text-block {
@@ -74,6 +74,7 @@ hr {
 
 .card {
   border: none;
+  background-color: inherit;
 }
 
 @media (min-width: 575px) {
@@ -114,14 +115,38 @@ nav {
   background-color: lightgrey;
 }
 
-.two-column-block {
-  background-color: white;
+.icon {
+  background-color: #0c023f;
+  border-radius: 50%;
+  height: 50px;
+  width: 30px;
 }
 
+<<<<<<< HEAD
 .img3 {
   background-image: url(/images/girl-in-kayak-in-mountain-lake.jpg?28aef65233684be05ce5bb7c4f4ca411);
+=======
+.img1 {
+  background-image: url(/images/boys-on-hill.jpg?887170cc56614b925c885637390ce19f);
+>>>>>>> two-column-icon
   background-size: contain;
   background-repeat: no-repeat;
   background-position-x: center;
   height: 250px;
+<<<<<<< HEAD
+=======
+}
+
+.img2 {
+  background-image: url(/images/icon_lockup.png?78dac002db73c7d268fbb61963211fc7);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  height: 100px;
+  margin-bottom: 5%;
+}
+
+.two-column-block {
+  background-color: white;
+>>>>>>> two-column-icon
 }
